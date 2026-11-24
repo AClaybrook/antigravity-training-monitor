@@ -1,0 +1,21 @@
+{
+  "command": "python3",
+  "args": ["parser.py", "--serve", "8765"],
+  "restart_policy": "always",
+  "display_name": "Training Monitor",
+  "description": "Live training metrics, win-rate curves, loss/KL health, and ETA for active ML/RL runs.",
+  "has_web_ui": true,
+  "agent_permissions": {
+    "allows_user_interactions": false
+  },
+  "ui_config": {
+    "display_name": "Training Monitor",
+    "views": [
+      {
+        "path": "/",
+        "entrypoint": "SIDECAR_UI_ENTRYPOINT_AUX_PANE",
+        "title": "Training Monitor"
+      }
+    ]
+  }
+}

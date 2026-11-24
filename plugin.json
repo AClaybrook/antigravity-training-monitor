@@ -1,0 +1,8 @@
+{
+  "name": "training-monitor",
+  "displayName": "Training Monitor",
+  "version": "1.0.0",
+  "description": "Live side-pane training monitor for ML and RL runs — auto-discovers Antigravity background task logs and workspace metrics.jsonl files with real-time curves and ETA.",
+  "repository": "https://github.com/AClaybrook/antigravity-training-monitor",
+  "logo": "assets/logo.svg"
+}
